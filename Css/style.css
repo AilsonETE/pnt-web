@@ -1,0 +1,127 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+ul {
+    background-color: brown;
+    text-align: center;
+    height: 30px;
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+
+
+}
+
+li {
+    display: inline;
+    margin: 15px;
+
+}
+
+li a:hover {
+    color: white;
+    background-color: rgb(171, 71, 71);
+    height: 20px;
+}
+
+
+/* container principal dos cards */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    padding: 20px;
+}
+
+/* estulo cada card individual */
+.card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(5, 1, 1, 0.1);
+    padding: 20px;
+    text-align: center;
+    width: 250px;
+
+}
+
+/*  para a imagem do card */
+.card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px 8px 0 0;
+    margin-bottom: 15px;
+}
+
+/* título do card */
+.card h3 {
+    font-size: 1.2em;
+    margin: 0 0 10px;
+}
+
+/* botão "Saiba Mais" */
+.btn-primario {
+    display: inline-block;
+    background-color: #494a4b;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+
+}
+
+.btn-primario:hover {
+    background-color: #0056b3;
+}
+
+.btn-secundario {
+    display: inline-block;
+    background-color: #056d1a;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+
+}
+
+.btn-secundario:hover {
+    background-color: #098c23;
+}
+
+footer {
+    background-color: #0c0c0c;
+    color: #f1f1f1;
+    text-align: center;
+    padding: 15px 10px;
+
+}
+
+footer a {
+    color: #00bfff;
+    text-decoration: none;
+    margin: 0 10px;
+    transition: 0.3s;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    color: #1e90ff;
+}
+
+.footer-bottom {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #aaa;
+}
